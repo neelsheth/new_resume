@@ -13,7 +13,7 @@ import bot_logo from './img/final_logo.svg'
 import sound1 from './sound/message_sound.mp3'
 import firebase from 'firebase/compat/app'; // Updated import statement
 import 'firebase/compat/firestore'; // Updated import statement
-import resume from './Neel-Sheth-Resume.pdf'
+import resume from './Neel-Sheth.pdf'
 import apk from './neel_sheth_resume.apk'
 import download from './img/download.png'
 
@@ -750,16 +750,16 @@ export default function ChatHome() {
 
                     </div>
                 </div>}
-            {/* <div style={{ display: "flex", justifyContent: "center" }}>
+             <div style={{ display: "flex", justifyContent: "center" }}>
                 
                 <button style={{ margin: "10px" }} className='down_btn' onClick={handleDownload}>
-                    <span role="img" aria-label="Download" style={{ marginRight: "5px" }}><img width={"20px"} src={download}></img></span> Resume
+                    <span role="img" aria-label="Download" style={{ marginRight: "5px" }}><img width={"20px"} src={download}></img></span>Conventional Resume
                 </button>
 
-                <button style={{ margin: "10px" }} className='down_btn' onClick={handleDownload1}>
+                {/* <button style={{ margin: "10px" }} className='down_btn' onClick={handleDownload1}>
                     <span role="img" aria-label="Download" style={{ marginRight: "5px" }}><img width={"20px"} src={download}></img></span>App Apk
-                </button>
-            </div> */}
+                </button> */}
+            </div> 
         </div>
     )
 }
